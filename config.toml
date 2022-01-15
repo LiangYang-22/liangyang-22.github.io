@@ -1,0 +1,107 @@
+## Basic Configuration
+
+# baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Yang Liang"
+title = "Yang Liang"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Yang Liang"
+intro = "Data Analyst"
+# description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+description = """
+
+now: [@bitmart](https://www.bitmart.com/)
+
+previously: Fashion Deepblue Corp, Tencent
+
+Master of Business Analytics from [Fordham University](https://www.linkedin.com/school/fordham-university/)
+
+[(click for resume)](files/yangliang_resume.pdf)
+
+"""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Yang Liang's personal website"
+keywords = "yang,liang,data,analyst"
+
+## Social Accounts
+[params.social]
+# github = "<username>"
+# instagram = "<username>"
+# xing = "<username>"
+linkedin = "liang-yang-"
+# twitter = "<username>"
+# facebook = "<username>"
+# google = "<username>"
+# googlescholar = "<account_id>"
+# stackoverflow = "<username>"
+# lastfm = "<username>"
+# goodreads = "<username>"
+# gitlab = "<username>"
+# bitbucket = "<username>"
+# fivehundredpx = "<username>"
+# flickr = "<username>"
+# foursquare = "<username>"
+# hackernews = "<username>"
+# kickstarter = "<username>"
+# patreon = "<username>"
+# pintrest = "<username>"
+# steam = "<username>"
+# reddit = "<username>"
+# snapchat = "<username>"
+# youtube = "<channelid>"
+# keybase = "<username>"
+# twitch = "<username>"
+# soundcloud = "<username>"
+# tumblr = "<username>"
+# strava = "<username>"
+# skype = "<username>"
+# telegram = "<username>"
+# whatsapp = "<username>"
+email = "lyang116@fordham.edu"
+# pgp = "<key_fingerprint>"
+
+## Extras
+[params.extra]
+copyright = "© 2022. Yang Liang."
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+# [[menu.main]]
+#     name = "blog"
+#     weight = 100
+#     identifier = "blog"
+#     url = "/blog/"
+# [[menu.main]]
+#     name = "about"
+#     identifier = "about"
+#     weight = 200
+#     url = "/about/"
+# [[menu.main]]
+#     name = "coderag"
+#     identifier = "coderag"
+#     weight = 300
+#     url = "/coderag/"
